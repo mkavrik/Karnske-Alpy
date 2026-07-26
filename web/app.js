@@ -84,19 +84,25 @@ const TRANSFER = {
   facts: ['Vlakem Hermagor → Sillian pro auto', 'Sraz na P+R v Hermagoru', 'Návrat 530 km / 6 h'],
 };
 
-/* Mozaika galerie: 4 široké dlaždice na 12 fotek = přesně 4 zaplněné řady */
+/* Mozaika galerie: 4 široké dlaždice (jen snímky 16:9) na 16 fotek — při čtyřech
+   sloupcích to dá 20 jednotek, tedy 5 přesně zaplněných řad bez děr.
+   Široké musí zůstat na indexech 0, 4, 8 a 9, jinak se řady rozsypou. */
 const PHOTOS = [
   { f: 'IMG_5300', alt: 'Hřebenová stezka s výhledem na vápencové stěny Dolomit', wide: true },
   { f: 'IMG_5263', alt: 'Trekař na skalním hřebeni fotí panorama Karnských Alp' },
-  { f: 'IMG_5273', alt: 'Dítě s batohem na hřebenové stezce mezi sutí a travnatými svahy' },
+  { f: 'IMG_5227', alt: 'Skupina trekařů s dětmi sestupuje k horskému jezírku mezi podzimními borůvčími a modříny' },
   { f: 'IMG_5286', alt: 'Členitý hraniční hřeben Karnských Alp se zbytky sněhu' },
   { f: 'IMG_5270', alt: 'Vápencový vrchol nad horskou chatou v travnaté kotlině', wide: true },
+  { f: 'IMG_5242', alt: 'Panorama Sextenských Dolomit za dolinou, v popředí hřeben Karnských Alp' },
+  { f: 'IMG_5273', alt: 'Dítě s batohem na hřebenové stezce mezi sutí a travnatými svahy' },
   { f: 'IMG_5265', alt: 'Pohled z hřebene do doliny s horským jezerem a chatou' },
-  { f: 'IMG_5255', alt: 'Skupina trekařů na travnatém hřebeni, v pozadí vzdálené italské hřbety' },
-  { f: 'IMG_5277', alt: 'Výhled z hřebene na severní stranu — Villgratenské hory a za nimi zasněžený hlavní alpský hřeben' },
-  { f: 'IMG_5307', alt: 'Trekaři na hřebeni se zbytky sněhu a mohutnou oblohou', wide: true },
+  { f: 'IMG_5233', alt: 'Odložený batoh a hůrky u červenobílé značky na kamenité stezce pod vrcholem', wide: true },
   { f: 'IMG_5325', alt: 'Západ slunce z terasy horské chaty', wide: true },
   { f: 'IMG_5305', alt: 'Panorama Sextenských Dolomit z hraničního hřebene' },
+  { f: 'IMG_5255', alt: 'Skupina trekařů na travnatém hřebeni, v pozadí vzdálené italské hřbety' },
+  { f: 'IMG_5277', alt: 'Výhled z hřebene na severní stranu — Villgratenské hory a za nimi zasněžený hlavní alpský hřeben' },
+  { f: 'IMG_5307', alt: 'Trekaři na hřebeni se zbytky sněhu a mohutnou oblohou' },
+  { f: 'IMG_5245', alt: 'Kamenitá hřebenová stezka nad sutí se sestupem do korutanské doliny' },
   { f: 'IMG_5279', alt: 'Horské jezero s chatou hluboko pod hřebenem' },
 ];
 
