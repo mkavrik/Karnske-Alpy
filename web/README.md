@@ -77,5 +77,5 @@ node ../scripts/gpx2json.mjs ../gpx data/tracks.json
 
 ## Co ještě chybí
 
-Cena výpravy a termín — podle zadání se zatím neřeší. Doplňují se v `index.html`
-v sekci `#kontakt`.
+Cena výpravy a termín — podle zadání se zatím neřeší. Stránka o ceně nic netvrdí;
+až bude kalkulace hotová, přidá se do `index.html` nová sekce.

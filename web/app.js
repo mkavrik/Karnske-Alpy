@@ -135,7 +135,7 @@ const io = new IntersectionObserver(
 );
 // .map-overview je vynechaná záměrně: transform na obalu rozhodí Leafletu drag
 const markReveal = () =>
-  document.querySelectorAll('.sec h2, .sec-lead, .why, .card, .fact, .ph, .quote, .checks, .huts, .day, .cta-card, .gitem')
+  document.querySelectorAll('.sec h2, .sec-lead, .why, .card, .fact, .ph, .quote, .checks, .huts, .day, .gitem')
     .forEach((el) => { if (!el.classList.contains('rv')) { el.classList.add('rv'); io.observe(el) } });
 
 /* ---------------------------------------------------------------- program */
