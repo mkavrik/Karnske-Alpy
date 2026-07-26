@@ -16,7 +16,7 @@ const DAYS = [
     from: 'Brno / Sillian', to: 'Sillianer Hütte',
     time: '4:45 h', endEle: 2449,
     sub: 'Přejezd do Alp a výstup na hřeben',
-    note: 'Ráno vyrážíme dodávkou z Brna — 630 km a necelých sedm hodin cesty. V Sillianu (1 080 m) zaparkujeme u vlakového nádraží, přehodíme batohy na ramena a jde se rovnou nahoru. Výstup na hřeben je jediné opravdové „zaplacení vstupenky“ celého treku: skoro 1 400 výškových metrů v jednom kuse. Nahoře na Sillianer Hütte (2 449 m) se ale večer sedí na terase s Sextenskými Dolomity přímo proti sobě — a od téhle chvíle už týden nesejdeme z hřebene.',
+    note: 'Ráno vyrážíme dodávkou z Brna — 630 km a necelých sedm hodin cesty. V Sillianu (1 080 m) zaparkujeme u vlakového nádraží, přehodíme batohy na ramena a jde se rovnou nahoru. Výstup na hřeben je jediné opravdové „zaplacení vstupenky“ celého treku: skoro 1 400 výškových metrů v jednom kuse. Nahoře na Sillianer Hütte (2 449 m) se ale večer sedí na terase se Sextenskými Dolomity přímo proti sobě — a od téhle chvíle už týden nesejdeme z hřebene.',
     facts: ['Dodávkou 630 km / 6:45 h', 'Parkování u nádraží v Sillianu', 'Výstup 4:45 h', 'První noc už na hřebeni'],
   },
   {
@@ -24,7 +24,7 @@ const DAYS = [
     from: 'Sillianer Hütte', to: 'Porzehütte',
     time: '8:00 h', endEle: 1939,
     sub: 'Nejvyšší a nejdelší hřebenový den',
-    note: 'Královská etapa. Celý den se jde po hraniční linii mezi Rakouskem a Itálií, s Dolomity po pravé ruce a Vysokými Taurami za sebou. Trasa míjí Obstansersee Hütte a hřebenovou Filmoor-Standschützenhütte a v polovině dne vystoupá do nejvyššího bodu celého treku — 2 669 m. Je to zároveň úsek, kde je frontová linie z let 1915–1917 nejlépe čitelná: chodí se po vojenských stezkách, kolem zákopů a vstupů do kaveren. Den končí sestupem k Porzehütte (1 939 m).',
+    note: 'Královská etapa. Celý den se jde po hraniční linii mezi Rakouskem a Itálií: po levici Vysoké Taury, po pravici italská Karnie a při ohlédnutí Sextenské Dolomity, které se za vámi pomalu vzdalují. Trasa míjí Obstansersee Hütte a hřebenovou Filmoor-Standschützenhütte a v polovině dne vystoupá do nejvyššího bodu celého treku — 2 669 m. Je to zároveň úsek, kde je frontová linie z let 1915–1917 nejlépe čitelná: chodí se po vojenských stezkách, kolem zákopů a vstupů do kaveren. Den končí sestupem k Porzehütte (1 939 m).',
     facts: ['Nejvyšší bod trasy 2 669 m', 'Obstansersee Hütte na cestě', 'Zákopy a kaverny z 1. sv. války', 'Nejnáročnější den treku'],
   },
   {
@@ -92,8 +92,8 @@ const PHOTOS = [
   { f: 'IMG_5286', alt: 'Členitý hraniční hřeben Karnských Alp se zbytky sněhu' },
   { f: 'IMG_5270', alt: 'Vápencový vrchol nad horskou chatou v travnaté kotlině', wide: true },
   { f: 'IMG_5265', alt: 'Pohled z hřebene do doliny s horským jezerem a chatou' },
-  { f: 'IMG_5255', alt: 'Skupina trekařů na travnatém hřebeni, v pozadí Dolomity' },
-  { f: 'IMG_5277', alt: 'Ranní výhled z hřebene na Vysoké Taury a údolí' },
+  { f: 'IMG_5255', alt: 'Skupina trekařů na travnatém hřebeni, v pozadí vzdálené italské hřbety' },
+  { f: 'IMG_5277', alt: 'Výhled z hřebene na severní stranu — Villgratenské hory a za nimi zasněžený hlavní alpský hřeben' },
   { f: 'IMG_5307', alt: 'Trekaři na hřebeni se zbytky sněhu a mohutnou oblohou', wide: true },
   { f: 'IMG_5325', alt: 'Západ slunce z terasy horské chaty', wide: true },
   { f: 'IMG_5305', alt: 'Panorama Sextenských Dolomit z hraničního hřebene' },
