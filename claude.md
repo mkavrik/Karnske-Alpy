@@ -1,0 +1,5 @@
+- vytvor mi webovou stranku v designovem stylu https://www.expeditionclub.cz/vypravy
+- jako hlavni barvy pouzij zelenou, zlutou, modrou a oranzovou. At je celkovy design vesele barevny
+- popis treku mas v souboru Karnske Alpy.md
+- fotky, ktere muzes pro dokresleni pouzit jsou v adresari fotky a v adresari gpx mas kompletni trasovani jednotlivych dni. To urcite pouzij do detailu jednotlivych dnu, ktery bude na webove strance uveden
+- zatim neres cenu vypravy, zatim tvorim jen propagacni material, abych presvedcil cestovni kancelar na vypsani teto vypravy
